@@ -1,34 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>| | Talia's Portfolio</title>
+    <title>Talia's Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&display=swap");>
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/sakura.min.css">
 </head>
 <body>
-    <nav class="menu">
-        <div class="menu-container">
-            <ul class="menu-list">
-            <li class="menu-item"><a href="" class="menu-link">Works</a></li>
-            <li class="menu-item"><a href="form" class="menu-link">About</a></li>
-            <li class="menu-item"><a href="form" class="menu-link">Experience</a></li>
-            </ul>
-        </div>
-        <div class="menuToggle"></div>
-        <div class="form"><p>test this out now</p></div>
-        <a class="menu-toggle">
-            <div class="menu-hamburger"></div>
-        </a>
-    </nav>
-    <main></main>
+    <main>
+        <!-- menu start -->
+        <nav class="menu">
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#works" class="menu-link">Works</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#feature" class="menu-link">Feature</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">About me</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#experience" class="menu-link">Experience</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contact" class="menu-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+                <a class="menu-toggle">
+                <div class="menu-hamburger"></div>
+                </a>
+        </nav>
+            <!-- menu end -->
+            <!-- window start -->
+            <div class="wide" id="window"></div>
+            <h1 class="main-title"> Welcome to Talia's</h1>
+            <b class='sub-title'>Portfolio</b>
+            <!-- window end -->
+        <!-- section start -->
+        <div class="content">
+            <div class="item-title" id="works"></div>
+            <div class="item-title" id="works">
+                <p>WORKS</p>
+            </div>
+            <br>
+            <div class="item-title-sub">
+                <p>制作実績</p>
+            </div>
+            <div class="images-box">
+                <article class="top-works__list-item">
+                    <div class="works-item">
+                        <figure class="works-item__thumbnail">
+                            <img src="images/Company_logo.png" alt="" class="works-item__thumbnail-image">
+                        </figure>
+                        <div class="works-item__content">
+                            <span class="works-item__content-title">Logo Design</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="top-works__list-item">
+                    <div class="works-item">
+                        <figure class="works-item__thumbnail">
+                            <img src="images/hospital.png" alt="" class="works-item__thumbnail-image">
+                        </figure>
+                        <div class="works-item__content">
+                            <span class="works-item__content-title">Banner Design</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="top-works__list-item">
+                    <div class="works-item">
+                        <figure class="works-item__thumbnail">
+                            <img src="images/mockup-portafolio.png" alt="" class="works-item__thumbnail-image">
+                        </figure>
+                        <div class="works-item__content">
+                            <span class="works-item__content-title"> Mock Up </span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="item-title" id="feature"><p>FEATURE</p></div>
+            <div class="item-title-sub"><p>フィーチャー</p></div>
+            <div class="images-box">
+                <a href="https://intp.site/981/portfolio-main/views/">
+                    <img src="images/first-portfolio.png" alt="" class="works-item cursor-pointer">
+                </a>
+                <a href="https://intp.site/981/CK/">
+                    <img src="images/CKshopsite.png" alt="" class="works-item cursor-pointer">
+                </a>
+            </div>
+            <div class="item-title" id="about"><p>ABOUT ME</p></div>
+            <div class="item-title-sub"><p>私について</p></div>
+            <div class="profile_box">
+                <div class="flexbox">
+                    <dl class="detail-profile-right">
+                        <dt>趣味：</dt>
+                        <dd>新しいイディオムを勉強する</dd>
+                        <dt>現在：</dt>
+                        <dd>ウェブデザインの制作、フロントWebディベロッパーとして活動中。</dd>
+                        <dd>世の中の「もったいない」を</dd>
+                        <dd>Aqui pongo algo mas</dd>
+                        <dt>余談：</dt>
+                        <dd>シェアハウスに住む</dd>
+                        <dd>🇯🇵🇺🇸🇪🇸日米西のトリリンガル</dd>
+                    </dl>
+                    <div class="about-me"><img src="/images/photoshop-edit.jpg" class= "photoshop" alt=""></div>
+                </div>
+            </div>
+            <div class="item-title" id="experience"><p>EXPERIENCE</p></div>
+            <div class="item-title-sub">
+                <p>経験</p>
+            </div>
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/html-5.svg" alt="html">
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/css-3.svg" alt="">
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/javascript.svg" alt="">
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/wordpress-icon.svg" alt="">
+            <p>Use</p>
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/php-alt.svg" alt="">
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/adobe-photoshop.svg" alt="">
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/adobe-xd.svg" alt="">
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/adobe-illustrator.svg" alt="">
+            <img class='experience-img' src="https://cdn.svgporn.com/logos/sass.svg" alt="">
 
+            <div class="item-title" id="contact"><p>CONTACT</p></div>
+            <div class="item-title-sub"><p>連絡</p></div>
+        </div>
+        <div class="end-door"></div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!-- menu  -->
     <script src="js/menu.js"></script>
-
-
-
+    <!-- sakura -->
+    <script src="js/sakura.min.js"></script>
+    <script>
+        var sakura = new Sakura('body', {
+            colors: [
+                {
+                    gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+                    gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+                    gradientColorDegree: 120,
+                },
+                {
+                    gradientColorStart: 'rgba(255,189,189)',
+                    gradientColorEnd: 'rgba(227,170,181)',
+                    gradientColorDegree: 120,
+                },
+                {
+                    gradientColorStart: 'rgba(212,152,163)',
+                    gradientColorEnd: 'rgba(242,185,196)',
+                    gradientColorDegree: 120,
+                },
+            ],
+            maxSize: 25,
+            minsize: 10,
+            delay: 200,
+            fallSpeed: 1.5
+        });
+    </script>
 </body>
 </html>
